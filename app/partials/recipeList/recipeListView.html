@@ -1,0 +1,29 @@
+<div>
+    <h1>Recipes</h1>
+    <input ng-model="query" placeholder="Search for recipes, ingredients..." autofocus>
+    <label>Spirit:
+        <select ng-model="recipeOrder">
+            <option value="name">Name</option>
+            <option value="spirit">Whiskey</option>
+        </select>
+    </label>
+    <label>
+        <input type="radio" ng-model="direction" name="direction" checked>
+        ascending
+    </label>
+    <label>
+        <input type="radio" ng-model="direction" name="direction" value="reverse">
+        descending
+    </label>
+</div>
+<ul>
+    <li class="list" ng-repeat="item in recipe | filter: query | orderBy: recipeOrder:direction">
+        <a class="link" href="#/recipeDetailsView/{{recipe.indexOf(item)}}">
+            <div class="item">
+                <img class="listImage" ng-src="assets/img/{{item.shortName}}.jpg" />
+                <p class="listName">{{item.name}}</p>
+            </div>
+        </a>
+    </li>
+</ul>
+

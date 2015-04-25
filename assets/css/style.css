@@ -1,0 +1,59 @@
+
+
+.recipe{
+    border: solid black 1px;
+}
+.ingredients{
+    border: solid black 2px;
+}
+
+.directions {
+    border: solid red 2px;
+}
+
+.list{
+    list-style-type: none;
+    width: 100%;
+    margin: 0 25px 0 25px;
+
+
+
+}
+
+.item{
+    height: 200px;
+    /*border: dashed black 1px;*/
+    padding: 20px;
+    vertical-align: middle;
+
+}
+
+.listImage{
+    /*border: solid black 2px;*/
+    display: inline;
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: baseline;
+    box-shadow: -5px 5px 50px 3px darkgray;
+    border-radius: 5px;
+
+
+
+}
+
+.listName{
+    /*border: solid blue 2px;*/
+    display: inline;
+    font-size: 140px;
+    vertical-align: baseline;
+    text-wrap: none;
+    margin-left: 25px;
+    color: lightblue;
+
+
+
+}
+
+.link{
+    text-decoration: none;
+}

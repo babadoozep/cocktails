@@ -1,0 +1,18 @@
+[
+  {
+    "name":"Sazerac",
+    "shortName": "sazerac",
+    "spirit":"Whiskey",
+    "ingredients": ["Absinthe", "1 Sugar Cube", "3 Dashes Peychaud's Bitters", "2 Dashes Angostura Bitters", "2 oz Rye Whiskey", "Slice of Lemon Peel"],
+    "glass": "Rocks",
+    "directions": "Rinse a chilled rocks glass with absinthe, discarding any excess, and set aside. In a mixing glass, muddle the sugar cube and both bitters. Add the rye, fill with ice and stir. Strain into the prepared glass. Twist a slice of lemon peel over the surface to extract the oils and then discard."
+  },
+  {
+    "name":"Whiskey Smash",
+    "shortName":"whiskey_smash",
+    "spirit":"Rum",
+    "ingredients":["Half a Lemon, Cut into Wedges", "4-6 Fresh Mint Leaves", ".75 oz Simple Syrup (1:1 Sugar/Water)", "2 oz Bourbon", "Mint Sprig Garnish"],
+    "glass":"Rocks",
+    "directions":"In a shaker, muddle the lemon. Add the remaining ingredients and fill with ice. Shake, and double-strain into a rocks glass filled with crushed ice or one large ice chunk. Slap a mint sprig between your hands and use as garnish. Serve with a straw."
+  }
+]
