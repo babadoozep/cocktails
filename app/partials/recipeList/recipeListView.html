@@ -20,7 +20,7 @@
     <li class="list" ng-repeat="item in recipe | filter: query | orderBy: recipeOrder:direction">
         <a class="link" href="#/recipeDetailsView/{{recipe.indexOf(item)}}">
             <div class="item">
-                <img class="listImage" ng-src="assets/img/{{item.shortName}}.jpg" />
+                <!--<img class="listImage" ng-src="assets/img/{{item.shortName}}.jpg" />-->
                 <p class="listName">{{item.name}}</p>
             </div>
         </a>

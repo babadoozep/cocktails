@@ -10,9 +10,194 @@
   {
     "name":"Whiskey Smash",
     "shortName":"whiskey_smash",
-    "spirit":"Rum",
+    "spirit":"Whiskey",
     "ingredients":["Half a Lemon, Cut into Wedges", "4-6 Fresh Mint Leaves", ".75 oz Simple Syrup (1:1 Sugar/Water)", "2 oz Bourbon", "Mint Sprig Garnish"],
     "glass":"Rocks",
     "directions":"In a shaker, muddle the lemon. Add the remaining ingredients and fill with ice. Shake, and double-strain into a rocks glass filled with crushed ice or one large ice chunk. Slap a mint sprig between your hands and use as garnish. Serve with a straw."
+  },
+  {
+    "name":"Old Fashioned",
+    "shortname":"old_fashioned",
+    "spirit":"Whiskey",
+    "ingredients": ["4 Dashes Angostura Bitters", "1 tsp Sugar (or 2 Sugar Cubes)", "1 Orange Wheel", "1 Maraschino Cherry", "2 oz Bourbon"],
+    "glass":"Old Fashioned",
+    "directions":"In an Old Fashioned glass, muddle the bitters, sugar, orange wheel, cherry and a splash of soda. Remove the orange rind, add the bourbon and fill with ice. Garnish with a fresh orange wheel and cherry."
+  },
+  {
+    "name":"Mint Julep",
+    "shortname":"mint_julep",
+    "spirit":"Whiskey",
+    "ingredients":[".25 oz Raw Sugar Syrup (1:1 Sugar/Water)", "8 Mint Leaves", "2 oz Bourbon"],
+    "glass":"Julep or Rocks",
+    "directions":"In a Julep cup or rocks glass, lightly muddle the mint and syrup. Add the bourbon and pack tightly with crushed ice. Stir until the cup is frosted on the outside. Top with more crushed ice to form an ice dome and garnish with a few drops of bitters, if desired, and a mint sprig."
+  },
+  {
+    "name":"Manhattan",
+    "shortname":"manhattan",
+    "spirit":"Whiskey",
+    "ingredients":["2 oz Rye Whiskey", "1 oz Sweet Vermouth", "5 Drops Angostura Bitters"],
+    "glass":"Cocktail",
+    "directions":"Add all the ingredients to a mixing glass and fill with ice. Stir well and strain into a chilled cocktail glass. Garnish with a cherry."
+  },
+  {
+    "name":"Kumquat Smash",
+    "shortname":"kumquat_smash",
+    "spirit":"Gin",
+    "ingredients":["2 oz Gin", "3 Kumquats, halved", ".66 oz Fresh Lemon Juice", ".33 oz Maraschino Liqueur", "2 Barspoons Powerdered Sugar", "Pinch of Nutmeg"],
+    "glass":"Old Fashioned",
+    "directions":"In a shaker, muddle the kumquats. Add remaining ingredients and fill with ice. Shake, and double strain into an Old Fashioned glass filled with fresh ice. Garnish with two kumquats."
+  },
+  {
+    "name":"The Celfie",
+    "shortname":"celfie",
+    "spirit":"Gin",
+    "ingredients":["1 Cardamom Pod", "1 Cucumber Wheel", "3 Mint Sprigs", "1.5 oz Dry Gin", ".5 oz Green Chartreuse", ".75 oz Lemon Juice", ".5 oz Simple Syrup (1:1 Sugar/Water)", ".5 oz Celery Juice", "Soda"],
+    "glass":"Collins",
+    "directions":"Add cardamom pod and cucumber wheel to a shaker and muddle. Add remaining ingredients (except for the soda) and fill with ice. Shake, and double strain into a Collins glass filled with fresh ice. Top with soda water, leaving room for garnish.Make a small, lengthwise cut in the half celery stalk and place on the rim of the cocktail. Slap the remaining mint sprigs on the palm of your hand to release the aromas and use them to garnish the drink."
+  },
+  {
+    "name":"The Joy Division",
+    "shortname":"joy_division",
+    "spirit":"Gin",
+    "ingredients":["2 oz Dry Gin", "1 oz Dry Vermouth", ".5 oz Cointreau", "3 Dashes Absinthe"],
+    "glass":"Coupe",
+    "directions":"Add all ingredients to a mixing glass and fill with ice. Stir. Strain into a coupe glass. Garnish with a lemon twist."
+  },
+  {
+    "name":"Classic Bijou",
+    "shortname":"classic_bijou",
+    "spirit":"Gin",
+    "ingredients":["1 oz Gin", "1 oz Sweet Vermouth", "1 oz Green Chartreuse", "1 Dash Orange Bitters"],
+    "glass":"Cocktail",
+    "directions":"Add all ingredients to a mixing glass and fill with ice. Stir. Strain into a chilled cocktail glass. Garnish with a lemon twist."
+  },
+  {
+    "name":"El Chapo",
+    "shortname":"el_chapo",
+    "spirit":"Gin",
+    "ingredients":["1.5 oz Gin", "1 oz Strawberry-Infused Aperitif", "Grapefruit Beer"],
+    "glass":"Old Fashioned",
+    "directions":"Add the gin and aperitif to an Old Fashioned glass over fresh ice. Top with grapefruit beer. Garnish with a slice of fresh strawberry."
+  },
+  {
+    "name":"Black & Ginger",
+    "shortname":"black_ginger",
+    "spirit":"Rum",
+    "ingredients":["2 oz Dark Rum", "2 Dashes Angostura Bitters", "Ginger Ale"],
+    "glass":"Rocks",
+    "directions":"Add the rum to a rocks glass filled with ice. Top with ginger ale and bitters and garnish with a lime wedge."
+  },
+  {
+    "name":"The Black Key",
+    "shortname":"black_key",
+    "spirit":"Rum",
+    "ingredients":["2 oz Dark Rum", ".5 oz Pure Maple Syrup", "1 Dash Angostura Bitters", "1 Dash Orange Bitters"],
+    "glass":"Rocks",
+    "directions":"Add all ingredients to a mixing glass and shake (without ice) for 10 to 15 seconds. Add ice ans shake again for 30 to 45 seconds. Strain into a rocks glass over a large piece of ice and garnish with a lemon peel and maraschino cherry."
+  },
+  {
+    "name":"Cacao Old Fashioned",
+    "shortname":"cacao_old_fashioned",
+    "spirit":"Rum",
+    "ingredients":["2 oz Cacao Rum", "1 tsp Sugar", "2 Dashes Angostura Bitters", "Club Soda"],
+    "glass":"Old Fashioned",
+    "directions":"In an Old Fashioned glass, muddle the sugar, bitters, and a splash of club soda. Fill with ice and add the rum. Stir. Garnish with an orange twist."
+  },
+  {
+    "name":"Mojito",
+    "shortname":"mojito",
+    "spirit":"Rum",
+    "ingredients":["1.5 oz White Rum", "6 Mint Leaves", ".75 oz Simple Syrup (1:1 Sugar/Water)", ".75 Fresh Lime Juice", "1.5 oz Club Soda"],
+    "glass":"Highball",
+    "directions":"In a shaker, lightly muddle the mint. Add the simple syrup, lime juice, and rum. Fill with ice. Shake well and pour (unstrained) into a highball glass. Top with club soda and garnish with mint sprig."
+  },
+  {
+    "name":"Hemingway Daiquiri",
+    "shortname":"hemingway_daiquiri",
+    "spirit":"Rum",
+    "ingredients":["1.5 oz Light Rum", ".5 oz Maraschino Liqueur", "1 oz Fresh Grapefruit Juice", ".5 oz Fresh Lime Juice", ".5 oz Simple Syrup"],
+    "glass":"Cocktail",
+    "directions":"Add all the ingredients to a shaker and fill with ice. Shake vigorously. Strain into chilled cocktail glass. Garnish with a lime wheel and black cherry on a skewer."
+  },
+  {
+    "name":"Alma Blanca",
+    "shortname":"alma_blanca",
+    "spirit":"Tequila",
+    "ingredients":["2 oz Habanero-infused Blanco Tequila", ".5 oz Ginger-Flavored Liqueur", "1 oz Fresh Lemon Juice", ".5 oz Fresh Pineapple Juice", ".5 oz Organic Agave Nectar", "2 Tbsp Fresh Yellow Corn Kernels", "Hibiscus-Rose Salt", "Anise-Flavored Liqueur"],
+    "glass":"Coupe",
+    "directions":"In a shaker, muddle the corn kernels. Add the remaining ingredients and fill with ice. Shake vigorously. Strain into a hibiscus-rose, salt-rimmed couple glass. Mist with two to three sprays of Anise-Flavored Liqueur."
+  },
+  {
+    "name":"House of Friends",
+    "shortname":"house_of_friends",
+    "spirit":"Tequila",
+    "ingredients":["1.5 oz Blanco Tequila", ".25 oz Yellow Chartreuse", ".25 oz Triple Sec", "1 oz Agave Nectar", "1 oz Fresh Squeezed Lime Juice"],
+    "glass":"Cocktail",
+    "directions":"Add all ingredients to a mixing glass and fill with ice. Shake vigorously. Strain into a cocktail glass."
+  },
+  },
+  {
+    "name":"White Dragon",
+    "shortname":"white_dragon",
+    "spirit":"Tequila",
+    "ingredients":["1.75 oz Blanco Tequila", ".75 oz Triple Sec", ".75 oz Lemon Juice", "1 Egg White"],
+    "glass":"Coupe",
+    "directions":"Add all the ingredients to a shaker. Shake without ice. Fill with ice and shake again. Strain into coupe glass. Twist a swatch of orange peel over the drink and discard."
+  },
+  {
+    "name":"Paloma",
+    "shortname":"paloma",
+    "spirit":"Tequila",
+    "ingredients":["2 oz Reposado Tequila", ".5 oz Fresh Lime Juice", "Pinch of Salt", "Grapefruit Soda"],
+    "glass":"Highball",
+    "directions":"Combine the tequila, lime juice, and salt in a tall glass. Add ice and top off with the grapefruit soda. Stir gently. Garnish with a lime wheel."
+  },
+  {
+    "name":"Wild Strawberry Amero",
+    "shortname":"wild_strawberry-amero",
+    "spirit":"Tequila",
+    "ingredients":["1.5 oz Strawberry-Infused Blanco Tequila", "1 oz Campari", "1 oz Cocchi Americano Rosa", "1 Drop Vanilla Extract"],
+    "glass":"Old Fashioned",
+    "directions":"Add all ingredients to a mixing glass and fill with ice. Stir. Strain into an old fashioned glass filled with fresh ice."
+  },
+  {
+    "name":"Taylored Black Russian",
+    "shortname":"taylored_black",
+    "spirit":"Vodka",
+    "ingredients":["1 oz Vodka", "1 oz Kahlua", "1 oz Chocolate Syrup"],
+    "glass":"Rocks",
+    "directions":"Heat the chocolate syrup until warm. Add all the ingredients to a mixing glass and stir. Fill with and stir until chilled. Strain into a rocks glass over fresh ice."
+  },
+  {
+    "name":"Weekend Getaway",
+    "shortname":"weekend_getaway",
+    "spirit":"Vodka",
+    "ingredients":["2 oz Vodka", ".75 oz Fresh Lemon Juice", ".75 oz Pineapple Syrup", "3 to 4 Basil Leaves", "Club Soda"],
+    "glass":"Old Fashioned",
+    "directions":"In a shaker, briefly muddle the basil leaves. Add remaining ingredients(besides club soda) to a shaker filled with ice. Shake. Strain into an old fashioned glass filled with fresh ice. Top with club soda and garnish with a basil leaf."
+  },
+  {
+    "name":"Hubble's Law",
+    "shortname":"hubbles_law",
+    "spirit":"Vodka",
+    "ingredients":["2 oz Vodka", ".75 Fresh Lime Juice", ".5 oz Amaro Montenegro", ".5 oz Brown Sugar Syrup(1:1 Brown Sugar/Water"],
+    "glass":"Old Fashioned",
+    "directions":"Add all ingredients to a shaker and fill with ice. Shake. Strain into an old fashioned glass filled with fresh ice. Garnish with a lime wheel."
+  },
+  {
+    "name":"Falken's Maze",
+    "shortname":"falkens_maze",
+    "spirit":"Vodka",
+    "ingredients":["2 oz Vodka", ".75 oz Fresh Lime Juice", ".5 oz Creme Yvette", ".5 oz Vanilla Syrup", "2 Dashes Orange Bitters"],
+    "glass":"Old Fashioned",
+    "directions":"Add all ingredients to a shaker and fill with ice. Shake. Strain into an old fashioned glass filled with fresh ice. Garnish with a lime wheel."
+  },
+  {
+    "name":"Moscow Mule",
+    "shortname":"moscow_mule",
+    "spirit":"Vodka",
+    "ingredients":["2 oz Vodka", "1 oz Fresh Lime Juice", "1.5 oz Ginger Syrup", "4 oz Club Soda"],
+    "glass":"Collins or Mule Mug",
+    "directions":"Add the vodka, lime juice, and ginger syrup to a shaker and fill with ice. Shake. Strain into a mule mug or collins glass filled with fresh ice. Top with club soda and mound crushed ice over the top of the drink."
   }
 ]

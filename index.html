@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html ng-app="cocktails">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +10,11 @@
     <script src="app/app.routes.js"></script>
     <script src="app/partials/recipeDetails/recipeDetailsController.js"></script>
     <script src="app/partials/recipeList/recipeListController.js"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <div ng-view></div>
+<body class="bodyimage" style="background-image: url({{imgUrl}});" ng-view>
+
 </body>
 </html>
 
