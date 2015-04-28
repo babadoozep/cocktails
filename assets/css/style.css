@@ -1,65 +1,114 @@
-h1 {
-    margin: 0;
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: left;
 }
 
-.bodyimage{
+.search {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 20%;
+    height: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #8c8c8c;
+}
+
+.search::-webkit-input-placeholder{
+    font-style: italic;
+    opacity: .8;
 
 }
 
-.recipe{
-    border: solid black 1px;
+.drinkName{
+    width: 100%;
+    font-size: 170px;
+    /*border: dashed white 1px;*/
+    display: inline-block;
+    margin: 60px auto 0 auto;
+    text-align: center;
 }
+
 .ingredients{
-    border: solid black 2px;
+    border: solid white 2px;
+    color: white;
+    width: 450px;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 100px auto auto 300px;
+    float: left;
+    display: block;
+
+}
+
+.line{
+    padding: 9px;
+
 }
 
 .directions {
-    border: solid red 2px;
+    border: solid white 2px;
+    color: white;
+    width: 450px;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    float: right;
+    margin: 100px 300px auto auto;
+
 }
 
 .list{
     list-style-type: none;
-    width: 100%;
-    margin: 0 25px 0 25px;
-
-
-
+    margin: 25px auto 25px auto;
+    border: solid white 2px;
+    width: 75%;
 }
 
-.item{
-    height: 200px;
-    /*border: dashed black 1px;*/
-    padding: 20px;
-    vertical-align: middle;
 
-}
-
-.listImage{
-    /*border: solid black 2px;*/
-    display: inline;
-    max-height: 100%;
-    max-width: 100%;
-    vertical-align: baseline;
-    box-shadow: -5px 5px 50px 3px darkgray;
-    border-radius: 5px;
-
-
-
-}
 
 .listName{
-    /*border: solid blue 2px;*/
+    width: 75%;
+    /*border: solid blue 1px;*/
     display: inline;
-    font-size: 140px;
-    vertical-align: baseline;
+    font-size: 130px;
+    vertical-align: middle;
     text-wrap: none;
     margin-left: 25px;
-    color: lightblue;
-
-
-
+    color: white;
+    padding: 0 10px 0 10px;
 }
 
 .link{
     text-decoration: none;
+}
+
+.back{
+    text-decoration: none;
+    color: white;
+    border: solid white 2px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.cycle{
+    text-decoration: none;
+    color: white;
+    border: solid white 2px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.nav{
+    /*border: dashed white;*/
+    width: 300px;
+    text-align: center;
+    margin: 20px auto auto auto;
+    display: inline-block;
 }
