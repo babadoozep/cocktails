@@ -1,17 +1,21 @@
+<div class="container">
+    <h3 class="drinkName">{{drinkName}}</h3>
 
-<h3 class="drinkName">{{drinkName}}</h3>
-<div class="ingredients">
-    <ul>
-        <li class="line" ng-repeat="item in recipeIngredients">{{item}}</li>
-    </ul>
-</div>
-<div class="directions">
-    <ol>
-        <li class="line" ng-repeat="item in recipeDirections">{{item}}</li>
-    </ol>
-</div>
-<div class="nav">
-    <a href="#/recipeDetailsView/{{prevItem}}" class="cycle">&lt;</a>
-    <a class="back" href="#/recipeListView">Back</a>
-    <a href="#/recipeDetailsView/{{nextItem}}" class="cycle">&gt;</a>
+    <div class="nav">
+        <a href="#/recipeDetailsView/{{prevItem}}" class="cycle">&lt;</a>
+        <a class="back" href="#/recipeListView">Back</a>
+        <a href="#/recipeDetailsView/{{nextItem}}" class="cycle">&gt;</a>
+    </div>
+    <div class="ingredientsAndDirections">
+        <div class="ingredients">
+            <ul>
+                <li class="lineItem" ng-repeat="item in recipeIngredients">{{item}}</li>
+            </ul>
+        </div>
+        <div class="directions">
+            <ol>
+                <li class="lineItem" ng-repeat="item in recipeDirections">{{item}}</li>
+            </ol>
+        </div>
+    </div>
 </div>

@@ -24815,9 +24815,6 @@ var NG_HIDE_IN_PROGRESS_CLASS = 'ng-hide-animate';
         </div>
       </div>
     </file>
-    <file name="glyphicons.css">
-      @import url(../../components/bootstrap-3.1.1/css/bootstrap.css);
-    </file>
     <file name="animations.css">
       .animate-show {
         line-height: 20px;
@@ -24979,9 +24976,6 @@ var ngShowDirective = ['$animate', function($animate) {
           <span class="glyphicon glyphicon-thumbs-down"></span> I hide when your checkbox is checked.
         </div>
       </div>
-    </file>
-    <file name="glyphicons.css">
-      @import url(../../components/bootstrap-3.1.1/css/bootstrap.css);
     </file>
     <file name="animations.css">
       .animate-hide {

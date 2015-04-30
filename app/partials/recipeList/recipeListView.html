@@ -1,28 +1,35 @@
+
 <div class="recipeList">
-    <div>
+    <div class="find">
         <input class="search" ng-model="filter.any" placeholder="Search for recipes, ingredients..." autofocus>
-        <label>Spirit:
-            <select ng-model="filter.spirit">
-                <option value="">-- Choose a Spirit --</option>
-                <option ng-repeat="spirit in spirits | orderBy: spirit" value="{{spirit}}">{{spirit}}</option>
-            </select>
-        </label>
-        <label>
-            <input type="radio" ng-model="direction" name="direction" checked>
-            A-Z
-        </label>
-        <label>
-            <input type="radio" ng-model="direction" name="direction" value="reverse">
-            Z-A
-        </label>
+
+        <div class="label">
+            <label>Spirit:&nbsp
+                <select class="filter" ng-model="filter.spirit">
+                    <option value="">-- Choose a Spirit --</option>
+                    <option ng-repeat="spirit in spirits | orderBy: spirit" value="{{spirit}}">{{spirit}}</option>&nbsp
+                </select>
+            </label>
+            <label>&nbsp
+                <input class="button" type="radio" ng-model="direction" name="direction" checked>
+                A-Z&nbsp
+            </label>
+            <label>
+                <input class="button" type="radio" ng-model="direction" name="direction" value="reverse">
+                Z-A
+            </label>
+        </div>
     </div>
-    <ul>
-        <li class="list" ng-repeat="item in recipe | filter:filter.any | filter:{spirit: filter.spirit} |  orderBy: recipeOrder:direction">
-            <a class="link" href="#/recipeDetailsView/{{recipe.indexOf(item)}}">
-                <div class="item">
-                    <p class="listName">{{item.name}}</p>
-                </div>
-            </a>
-        </li>
-    </ul>
+
+    <div>
+        <ul class="unordered">
+            <li class="list" ng-repeat="item in recipe | filter:filter.any | filter:{spirit: filter.spirit} |  orderBy: recipeOrder:direction">
+                <a class="link" href="#/recipeDetailsView/{{recipe.indexOf(item)}}">
+                    <div class="item">
+                        <p class="listName">{{item.name}}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
