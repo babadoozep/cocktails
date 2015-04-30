@@ -3,7 +3,7 @@ recipeControllers.controller('ListController', ['$scope', '$http', function($sco
         $scope.recipe = data;
         $scope.recipeOrder = 'name';
         $scope.sortBySpirit = 'spirit';
-        $scope.imgUrl = "assets/img/list.jpg";
+        $scope.imgUrl = "assets/img/cosmo.jpg";
 
 
         $scope.spirits = [];

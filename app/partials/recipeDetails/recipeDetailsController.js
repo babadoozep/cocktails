@@ -7,7 +7,7 @@ recipeControllers.controller('DetailsController', ['$scope', '$http','$routePara
         $scope.drinkName = recipe[whichItem].name;
         $scope.recipeIngredients = recipe[whichItem].ingredients;
         $scope.recipeDirections = recipe[whichItem].directions;
-        $scope.imgUrl = "assets/img/detail.jpg";
+        $scope.imgUrl = "assets/img/glare.jpg";
 
 
 

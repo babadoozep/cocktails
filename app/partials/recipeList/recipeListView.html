@@ -1,7 +1,7 @@
 
 <div class="recipeList">
     <div class="find">
-        <input class="search" ng-model="filter.any" placeholder="Search for recipes, ingredients..." autofocus>
+        <input class="search" ng-model="filter.any" placeholder="Search for cocktails, ingredients..." autofocus>
 
         <div class="label">
             <label>Spirit:&nbsp
@@ -23,13 +23,13 @@
 
     <div>
         <ul class="unordered">
-            <li class="list" ng-repeat="item in recipe | filter:filter.any | filter:{spirit: filter.spirit} |  orderBy: recipeOrder:direction">
+            <b><li class="list" ng-repeat="item in recipe | filter:filter.any | filter:{spirit: filter.spirit} |  orderBy: recipeOrder:direction">
                 <a class="link" href="#/recipeDetailsView/{{recipe.indexOf(item)}}">
                     <div class="item">
                         <p class="listName">{{item.name}}</p>
                     </div>
                 </a>
-            </li>
+            </li></b>
         </ul>
     </div>
 </div>
