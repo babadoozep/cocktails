@@ -1,6 +1,6 @@
 recipeControllers.controller('DetailsController', ['$scope', '$http','$routeParams', '$location', '$route',
     function($scope, $http, $routeParams, $location, $route) {
-      $scope.imgUrl = "assets/img/glare.jpg";
+      $scope.imgUrl = "assets/img/cosmo.jpg";
       $scope.drinkName = "\u00A0"
       $scope.json = null;
       $scope.currentPage = $routeParams.itemId
