@@ -10,7 +10,9 @@ cocktails.config(['$routeProvider', function($routeProvider) {
         }).
         when('/recipeDetailsView/:itemId',{
             templateUrl: 'app/partials/recipeDetails/recipeDetailsView.html',
-            controller: 'DetailsController'
+            controller: 'DetailsController',
+            reloadOnSearch: false
+
         }).
         otherwise({
             redirectTo: '/recipeListView'

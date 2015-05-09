@@ -2,9 +2,9 @@
     <h3 class="drinkName">{{drinkName}}</h3>
 
     <div class="nav">
-        <a href="#/recipeDetailsView/{{prevItem}}" class="cycle">&lt;</a>
+        <span ng-click="recipeBack()" class="cycle">&lt;</span>
         <a class="back" href="#/recipeListView">Back</a>
-        <a href="#/recipeDetailsView/{{nextItem}}" class="cycle">&gt;</a>
+        <span ng-click="recipeForward()" class="cycle">&gt;</span>
     </div>
     <div class="ingredientsAndDirections">
         <div class="ingredients">
